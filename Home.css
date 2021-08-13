@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+.header > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Redressed", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.home__form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.form__p {
+  flex: 0.5;
+}
+.form__input {
+  flex: 0.5;
+}
+
+.form__p > p {
+  margin-left: 40%;
+  font-family: "Redressed", cursive;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.home__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.home__button > Button {
+  padding: 20px 100px;
+  font-family: "Redressed", cursive;
+  font-size: 1.5em;
+}
+.home {
+  background-color: #d8e2eb;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 30px 500px;
+  padding: 10px 0;
+}
+.inputBox {
+  background-color: white !important;
+}
+
+@media screen and (max-width: 370px) {
+  .form__p > p {
+    margin-left: 10%;
+    font-family: "Redressed", cursive;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: justify;
+    text-transform: uppercase;
+  }
+  .form__input {
+    margin-right: 15px;
+  }
+
+  .home__button {
+    margin-bottom: 10px;
+  }
+
+  .home {
+    box-shadow: none;
+    margin: 0;
+    background-color: #ede7f6;
+  }
+
+  .home__button > Button {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

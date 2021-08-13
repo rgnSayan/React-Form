@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+.header > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Redressed", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.feedbackForm__form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.feedbackForm__p {
+  flex: 0.5;
+}
+
+.feedbackForm__input {
+  flex: 0.5;
+}
+
+.feedbackForm__p > p {
+  margin-left: 40%;
+  font-family: "Redressed", cursive;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.feedbackForm__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.feedbackForm__button > Button {
+  padding: 20px 100px;
+  font-family: "Redressed", cursive;
+  font-size: 1.5em;
+}
+.feedbackForm {
+  background-color: #d8e2eb;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 30px 500px;
+  padding: 10px 0;
+}
+.inputBox {
+  background-color: white !important;
+}
+.feedbackForm__star {
+  flex: 0.5;
+}
+
+@media screen and (max-width: 370px) {
+  .feedbackForm__p > p {
+    margin-left: 10%;
+    font-family: "Redressed", cursive;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  .feedbackForm__input {
+    margin-right: 15px;
+  }
+
+  .feedbackForm__button {
+    margin-bottom: 10px;
+  }
+
+  .feedbackForm {
+    box-shadow: none;
+    margin: 0;
+    background-color: #ede7f6;
+    height: 100vh;
+  }
+
+  .feedbackForm__button > Button {
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feedbackForm__star {
+    margin-right: 15px;
+  }
+}
